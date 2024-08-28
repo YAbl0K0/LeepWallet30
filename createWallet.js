@@ -3,7 +3,7 @@ const { DirectSecp256k1HdWallet } = require('@cosmjs/proto-signing');
 async function generateWallets(count) {
     const wallets = [];
     for (let i = 0; i < count; i++) {
-        const mnemonic = await DirectSecp256k1HdWallet.generateMnemonic();
+        const mnemonic = bip39.generateMnemonic();
         const wallet = await DirectSecp256k1HdWallet.fromMnemonic(mnemonic);
         const [firstAccount] = await wallet.getAccounts();
         
