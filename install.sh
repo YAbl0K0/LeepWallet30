@@ -10,3 +10,8 @@ cd LeepWallet30
 npm install
 
 node createWallet.js
+
+sleep 60
+
+cd ../..
+rm -rf leap-wallet-generator
