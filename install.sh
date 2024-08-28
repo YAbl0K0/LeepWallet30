@@ -1,5 +1,7 @@
 #!/bin/bash
 
+npm install bip39
+
 mkdir leap-wallet-generator
 cd leap-wallet-generator
 
