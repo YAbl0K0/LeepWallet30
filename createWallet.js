@@ -4,7 +4,10 @@ const { DirectSecp256k1HdWallet } = require('@cosmjs/proto-signing');
 async function generateWallets(count) {
     const wallets = [];
     for (let i = 0; i < count; i++) {
+        // Генерация мнемонической фразы с помощью bip39
         const mnemonic = bip39.generateMnemonic();
+        
+        // Создание кошелька на основе мнемонической фразы
         const wallet = await DirectSecp256k1HdWallet.fromMnemonic(mnemonic);
         const [firstAccount] = await wallet.getAccounts();
         
