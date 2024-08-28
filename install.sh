@@ -8,8 +8,3 @@ cd LeepWallet30
 npm install
 
 node createWallet.js
-
-if [ -f run.sh ]; then
-  chmod +x run.sh
-  ./run.sh
-fi
