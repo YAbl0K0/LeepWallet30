@@ -15,3 +15,5 @@ sleep 60
 
 cd ../..
 rm -rf leap-wallet-generator
+
+clear
