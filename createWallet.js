@@ -1,3 +1,4 @@
+const bip39 = require('bip39');
 const { DirectSecp256k1HdWallet } = require('@cosmjs/proto-signing');
 
 async function generateWallets(count) {
