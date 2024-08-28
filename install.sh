@@ -1,5 +1,5 @@
 #!/bin/bash
-git clone https://github.com/username/repository.git
+https://github.com/YAbl0K0/LeepWallet30/blob/main/crate.git
 cd repository
 npm install
 node generateLeapWallets.js
