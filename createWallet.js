@@ -20,7 +20,7 @@ async function generateWallets(count) {
 }
 
 async function main() {
-    const wallets = await generateWallets(30);
+    const wallets = await generateWallets(25);
 
     wallets.forEach((wallet) => {
         console.log(`${wallet.address};${wallet.mnemonic}`);
