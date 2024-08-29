@@ -5,7 +5,7 @@ npm install bip39
 mkdir leap-wallet-generator
 cd leap-wallet-generator
 
-git clone https://github.com/VadimRM7/PUBLIC/tree/main/wallet/leep_wallet25.git
+git clone https://github.com/VadimRM7/PUBLIC/main/wallet/leep_wallet25.git
 cd leep_wallet25
 npm install
 
